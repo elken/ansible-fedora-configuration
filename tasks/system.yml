@@ -2,7 +2,7 @@
 - name: Change the hostname of the laptop
   become: true
   hostname:
-    name: core-laptop
+    name: Quasar
   tags:
     - system
     - hostname
@@ -10,7 +10,7 @@
 - name: Change the hostname of the desktop workstation
   become: true
   hostname:
-    name: core-workstation
+    name: Zenith
   tags:
     - system
     - hostname
